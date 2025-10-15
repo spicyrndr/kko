@@ -2435,7 +2435,7 @@ figure {
 
 .navbar_contain {
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
   display: flex;
   position: relative;
@@ -4163,27 +4163,8 @@ figure {
   }
 }
 
-#w-node-_60a352c6-cc17-c6b3-0689-2231dcd22909-11a5abc2, #field.w-node-bc6c6ac6-9be9-b6dd-cc06-766f09bcbf37-11a5abc2, #Mensaje.w-node-bc6c6ac6-9be9-b6dd-cc06-766f09bcbf38-11a5abc2 {
+#field.w-node-bc6c6ac6-9be9-b6dd-cc06-766f09bcbf37-11a5abc2, #Mensaje.w-node-bc6c6ac6-9be9-b6dd-cc06-766f09bcbf38-11a5abc2 {
   grid-area: span 1 / span 2 / span 1 / span 2;
-}
-
-@media screen and (max-width: 991px) {
-  #w-node-_60a352c6-cc17-c6b3-0689-2231dcd228ee-11a5abc2 {
-    order: 9999;
-  }
-
-  #w-node-_60a352c6-cc17-c6b3-0689-2231dcd228fa-11a5abc2 {
-    order: 9999;
-    grid-area: span 1 / span 1 / span 1 / span 1;
-  }
-
-  #w-node-_60a352c6-cc17-c6b3-0689-2231dcd22909-11a5abc2 {
-    grid-column: span 1 / span 1;
-  }
-
-  #w-node-_60a352c6-cc17-c6b3-0689-2231dcd22916-11a5abc2 {
-    grid-area: span 1 / span 1 / span 1 / span 1;
-  }
 }
 
 
